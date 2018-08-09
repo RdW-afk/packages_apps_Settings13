@@ -27,6 +27,15 @@
         android:layout="@layout/horizon_logo"
         android:selectable="false"/>
 
+    <!-- HorizonDroid version -->
+    <Preference
+        android:key="horizon_release_version"
+        android:title="@string/horizon_release_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.HorizonVersionDetailPreferenceController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
