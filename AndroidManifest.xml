@@ -138,7 +138,9 @@
             android:defaultToDeviceProtectedStorage="true"
             android:directBootAware="true"
             android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-            android:enableOnBackInvokedCallback="true">
+            android:gwpAsanMode="always"
+            android:enableOnBackInvokedCallback="true"
+            tools:replace="android:appComponentFactory">
 
         <uses-library android:name="org.apache.http.legacy" />
 
