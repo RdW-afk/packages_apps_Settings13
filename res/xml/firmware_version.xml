@@ -27,6 +27,15 @@
         android:layout="@layout/horizon_logo"
         android:selectable="false"/>
 
+    <!-- Android version -->
+    <Preference
+        android:key="os_firmware_version"
+        android:title="@string/firmware_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+
     <!-- HorizonDroid version -->
     <Preference
         android:key="horizon_release_version"
@@ -36,14 +45,13 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.HorizonVersionDetailPreferenceController"/>
 
-    <!-- Android version -->
+    <!-- HorizonDroid Maintainer  -->
     <Preference
-        android:key="os_firmware_version"
-        android:title="@string/firmware_version"
+        android:key="horizon_maintainer"
+        android:title="@string/horizon_maintainer"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:searchable="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.HorizonMaintainerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
