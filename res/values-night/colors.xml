@@ -62,5 +62,28 @@
 
     <!-- Icon tint color for battery usage system icon -->
     <color name="battery_usage_system_icon_color">@android:color/white</color>
+
+    <!-- UDFPS colors -->
+    <color name="udfps_enroll_icon">#7DA7F1</color>
+    <color name="udfps_moving_target_fill">#475670</color>
+    <!-- 50% of udfps_moving_target_fill-->
+    <color name="udfps_moving_target_fill_error">#80475670</color>
+    <color name="udfps_enroll_progress">#7DA7F1</color>
+    <color name="udfps_enroll_progress_help">#607DA7F1</color>
+    <color name="udfps_enroll_progress_help_with_talkback">#FFEE675C</color>
+
+    <!-- Flash notifications colors -->
+    <!-- Screen flash notification color selected stroke in color selection dialog -->
+    <color name="screen_flash_color_button_outer_circle_stroke_color">#FFFFFF</color>
+
+    <!-- Switch bar disabled state color-->
+    <color name="switch_bar_state_disabled_color">#1FE3E3E3</color>
+
+    <!-- Monet color pallete -->
+     <color name="primary_monet">@android:color/system_accent1_100</color>
+     <color name="sec_monet">@android:color/system_accent3_300</color>
+     <color name="opt_monet">@android:color/system_accent1_200</color>
+
+     <color name="hzn_cardview_color">@android:color/system_neutral2_700</color>
 </resources>
 
