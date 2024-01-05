@@ -25,11 +25,21 @@
         android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
         android:icon="@drawable/ic_settings_about_device"
         android:key="top_level_about_device"
-        android:order="-160"
+        android:order="-170"
         android:title="@string/about_settings"
-        settings:layout="@layout/hzn_homepage_card_sin"
+        settings:layout="@layout/hzn_homepage_card_top"
         settings:highlightableMenuKey="@string/menu_key_about_device"
         settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
+
+        <Preference
+        android:key="top_level_horizonlab"
+        android:title="@string/horizon_dashboard_title"
+        android:summary="@string/build_tweaks_summary_title"
+        android:icon="@drawable/ic_settings_horizon"
+        android:order="-160"
+        android:fragment="com.horizon.lab.HorizonDashboard"
+        settings:layout="@layout/hzn_homepage_card_bot"
+        settings:controller="com.horizon.lab.TopLevelExtensionsEntryPreferenceController" />
 		
 	<com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.DisplaySettings"

@@ -222,7 +222,10 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
  	    String key = preference.getKey();
 
 	        if (key.equals("top_level_about_device")){
-	        preference.setLayoutResource(R.layout.hzn_homepage_card_sin);
+	        preference.setLayoutResource(R.layout.hzn_homepage_card_top);
+	        }
+            if (key.equals("top_level_horizonlab")){
+	        preference.setLayoutResource(R.layout.hzn_homepage_card_bot);
 	        }
             if (key.equals("top_level_network")){
                 preference.setLayoutResource(R.layout.hzn_homepage_card_top);

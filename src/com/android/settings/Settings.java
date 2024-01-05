@@ -448,4 +448,7 @@ public class Settings extends SettingsActivity {
      * Activity for OneHandedSettings
      */
     public static class OneHandedSettingsActivity extends SettingsActivity { /* empty */ }
+
+    // HorizonLabs.
+    public static class HorizonlabSettingsActivity extends SettingsActivity {}
 }
