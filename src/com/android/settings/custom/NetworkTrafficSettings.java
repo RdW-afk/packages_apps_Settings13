@@ -102,6 +102,6 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment implement
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CUSTOM_SETTINGS;
+        return MetricsProto.MetricsEvent.HORIZON;
     }
 }
